@@ -41,3 +41,13 @@ function fnDividir(){
     let resultadodividir = parseInt(numero1) / parseInt(numero2);
     console.log("la division de los datos: ", numero1, "/", numero2, "es: ", resultadodividir);
 }
+
+function fnDividir(){
+
+    numero1 = document.querySelector("#txtnum1").value;
+    numero2 = document.querySelector(".txtnum2").value;
+
+    let resultadodividir = parseInt(numero1) / parseInt(numero2);
+    console.log("la division de los datos: ", numero1, "/", numero2, "es: ", resultadodividir);
+}
+
